@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import {Header} from './header.jsx'
+import { Hero } from './hero.jsx'
 
 function App() {
  
@@ -10,6 +11,7 @@ function App() {
     <>
       <Header
       filter = {filter} />
+      <Hero/>
     </>
   )
 }

@@ -1,18 +1,21 @@
+import './app.css'
 
-
-export function Header({filter}){
+export function Header(){
     return(
-    <div className="flex items-center bg-red-400 h-20 w-full justify-between px-10">
-        <p>logo</p>
+    <div className="flex items-center bg-gray-700 h-20 w-full justify-between px-10">
+        <p className='text'>logo</p>
         <div>
-            <ul className="flex justify-between w-80">
-                <li><a href="#">accueil</a></li>
-                <li><a href="#">à propos</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">contact</a></li>
+            <ul className="flex justify-between w-96 justify-center">
+                <li><a href="#" className="text">accueil</a></li>
+                <li><a href="#" className='text'>à propos</a></li>
+                <li><a href="#" className='text'>services</a></li>
+                <li><a href="#" className='text'>contact</a></li>
             </ul>
         </div>
-        <a href="#">&#128269; </a>
+       <div className='bg-white rounded-full px-4 py-2'>
+            <input type="text" placeholder="Recherchez ..." className='rounded-full outline-none px-2' />
+            <a href="#" >&#128269; </a>
+       </div>
     </div>
 
     )
