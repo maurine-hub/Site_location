@@ -2,7 +2,7 @@ import './app.css'
 
 export function Header(){
     return(
-    <div className="flex items-center bg-gray-700 h-20 w-full justify-between px-10">
+    <div className="flex items-center bg-gray-500 h-20 w-full justify-between px-10">
         <p className='text'>logo</p>
         <div>
             <ul className="flex justify-between w-96 ">

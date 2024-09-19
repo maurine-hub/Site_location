@@ -7,9 +7,13 @@ export const properties = [
       price: 100,
       location: "Alpes",
       img: 'https://a0.muscache.com/im/pictures/88ecf78a-4c67-4742-bab3-12f485a6dfa5.jpg?im_w=720',
+      profil: 'https://a0.muscache.com/im/pictures/88ecf78a-4c67-4742-bab3-12f485a6dfa5.jpg?im_w=720',
       images: [
-        "https://via.placeholder.com/200",
-        "https://via.placeholder.com/200"
+        'https://a0.muscache.com/im/pictures/88ecf78a-4c67-4742-bab3-12f485a6dfa5.jpg?im_w=720',
+        "https://a0.muscache.com/im/pictures/f0123142-529c-470c-96ee-33b39339556a.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31135756/original/6374e2d6-90da-457f-9cf5-01061a9f9438.jpeg?im_w=720",
+        "https://a0.muscache.com/im/pictures/5c2e3c5d-3988-4e6d-bc1d-91f2cac9ace2.jpg?im_w=720",
+        "https://a0.muscache.com/im/pictures/miso/Hosting-31135756/original/3e48f6e1-5fa9-40f7-998d-d7968f66face.jpeg?im_w=720"
       ],
       availability: true
     },
@@ -105,12 +109,12 @@ export const properties = [
       availability: false
     },
     {
-      id: 8,
+      id: 9,
       title: "Appartement en ville",
       description: "Appartement moderne proche de toutes commodités.",
       price: 80,
       location: "Paris",
-      img:'https://a0.muscache.com/im/pictures/miso/Hosting-42304153/original/066d1f69-0674-47c2-aef6-b73156b0f9f0.jpeg?im_w=720', 
+      img:'https://a0.muscache.com/im/pictures/miso/Hosting-54218173/original/6a75dd09-81f3-48d9-a652-4383219db90b.jpeg?im_w=720', 
       images: [
         "https://via.placeholder.com/200",
         "https://via.placeholder.com/200"
@@ -118,12 +122,12 @@ export const properties = [
       availability: false
     },
     {
-      id: 8,
+      id: 10,
       title: "Appartement en ville",
       description: "Appartement moderne proche de toutes commodités.",
       price: 80,
       location: "Paris",
-      img:'https://a0.muscache.com/im/pictures/miso/Hosting-42304153/original/066d1f69-0674-47c2-aef6-b73156b0f9f0.jpeg?im_w=720', 
+      img:'https://a0.muscache.com/im/pictures/2918c137-2875-4bbd-a056-433a77fec3ab.jpg?im_w=720', 
       images: [
         "https://via.placeholder.com/200",
         "https://via.placeholder.com/200"
@@ -131,12 +135,12 @@ export const properties = [
       availability: false
     },
     {
-      id: 8,
+      id: 11,
       title: "Appartement en ville",
       description: "Appartement moderne proche de toutes commodités.",
       price: 80,
       location: "Paris",
-      img:'https://a0.muscache.com/im/pictures/miso/Hosting-42304153/original/066d1f69-0674-47c2-aef6-b73156b0f9f0.jpeg?im_w=720', 
+      img:'https://a0.muscache.com/im/pictures/8e1b910b-6478-46d3-85da-54b28d7cd584.jpg?im_w=720', 
       images: [
         "https://via.placeholder.com/200",
         "https://via.placeholder.com/200"
@@ -144,12 +148,12 @@ export const properties = [
       availability: false
     },
     {
-      id: 8,
+      id: 12,
       title: "Appartement en ville",
       description: "Appartement moderne proche de toutes commodités.",
       price: 80,
       location: "Paris",
-      img:'https://a0.muscache.com/im/pictures/miso/Hosting-42304153/original/066d1f69-0674-47c2-aef6-b73156b0f9f0.jpeg?im_w=720', 
+      img:'https://a0.muscache.com/im/pictures/26060317/b658ed94_original.jpg?im_w=720', 
       images: [
         "https://via.placeholder.com/200",
         "https://via.placeholder.com/200"
