@@ -8,7 +8,7 @@
     @apply font-semibold capitalize text-lg text-[#20201b];
 }
 .App {
-    font-family: Arial, sans-serif;
+    font-family:  Tahoma, sans-serif;
   }
 /*   
   h1, h2 {
@@ -47,4 +47,10 @@
     
   }
   
- 
+.btn1{
+  /* display: none; */
+  /* opacity: 0; */
+}
+.btn1:hover {
+ opacity: 100;
+}

@@ -94,6 +94,7 @@ import React, { useState } from 'react';
 // import BackgroundSlider from './components/BackgroundSlider';
 import PropertyList from './components/PropertyList';
 import PropertyDetails from './components/PropertyDetails';
+import Images from './components/Images.jsx';
 import { properties } from './data/properties';
 import { Header } from './header';
 import { Hero } from './hero';
@@ -106,6 +107,7 @@ function App() {
     // Lorsqu'une propriété est sélectionnée, on la stocke dans l'état
     setSelectedProperty(property);
   };
+
 
   return (
     <div className="App">
@@ -123,6 +125,8 @@ function App() {
           <PropertyList properties={properties} selectProperty={selectProperty} />
         </>
       )}
+      
+
     </div>
   );
 }
